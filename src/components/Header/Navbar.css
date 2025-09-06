@@ -1,0 +1,24 @@
+
+button.link:hover{
+  cursor: pointer;
+  color: #ff5252;
+}
+
+.category-pannel button{
+  text-transform: capitalize !important;
+}
+/* 
+.category-pannel .submenu{
+  display: none;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+} */
+
+
+.link:hover{
+  color: #ff2525 !important;
+}
+
+
+

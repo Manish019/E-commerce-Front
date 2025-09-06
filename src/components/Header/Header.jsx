@@ -8,6 +8,7 @@ import Badge from "@mui/material/Badge";
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
+import Navbar from './Navbar';
 
 
 
@@ -27,7 +28,7 @@ const Header = () => {
   return (
     
     // header-part-start
- <header>
+ <header className='bg-white'>
   <div className="top-strip py-2 border-t border-b border-gray-400 bg-primary">
   <div className="container">
     <div className="flex items-center justify-between">
@@ -51,7 +52,7 @@ const Header = () => {
 
 {/* staet-header */}
 
-<div className="header-logo">
+<div className="header-logo border-b border-gray-400">
   <div className="container flex items-center justify-between ">
     <div className="col-one w-[20%] lg:w-[25%] px-10 flex items-center mt-5 mb-5">
       <Link to="/" className='logo-img'><img src='/logo.jpg' alt='Logo' /></Link>
@@ -99,6 +100,14 @@ const Header = () => {
     </div>
   </div>
 </div>
+
+
+
+<div className="navbar-menu border-b border-gray-400 bg-primary ">
+    {/* Navbar component */}
+   <Navbar />
+
+  </div>
 
 
  </header>
