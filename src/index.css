@@ -12,6 +12,7 @@ body{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   background-color: #f5f0f0;
+  overflow-x: hidden;
 }
 
 
@@ -23,7 +24,50 @@ body{
  
 }
 
+.swiper-button-prev,.swiper-button-next{
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 208, 110);
+  border-radius: 100%;
+  width: 40px;
+  height: 28px !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
+
+.swiper-button-prev::after,.swiper-button-next::after{
+  content: '';
+  display: block;
+  font-size: 15px !important;
+  color: #080808 !important;
+  font-weight: bold !important;
+  padding: 10px;
+}
+
+
+/* Pagination container ko neeche shift karo */
+.catgory-swiper .swiper-pagination {
+  position: relative !important;
+  margin-top: 12px; /* text aur bullets ke beech ka gap */
+  text-align: center;
+}
+
+/* Default bullet style */
+.catgory-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #d1d5db; /* Tailwind gray-300 */
+  opacity: 1;
+  margin: 0 4px !important; /* bullets ke beech space */
+  border-radius: 9999px; /* full round */
+}
+
+/* Active bullet style */
+.catgory-swiper .swiper-pagination-bullet-active {
+  background-color: #2563eb; /* Tailwind blue-600 */
+}
 
 
 
