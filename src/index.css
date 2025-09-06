@@ -1,0 +1,28 @@
+ @import "tailwindcss";
+
+
+ /* *{
+  margin:auto;
+  padding:0;
+  box-sizing: border-box;
+ } */
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.container {
+  @apply mx-auto;
+  max-width: 100%;
+  padding-left:10px;
+  padding-right:10px;
+ 
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+
+
+
+.primary-orange{
+  color: #ff5252;
+}
+
+.link:hover{
+  color: #ff5252;
+}
+
+
+.bg-primary{
+  background-color: #ffffff;
+}
+
+.MuiBadge-badge{
+  font-size: 12px;
+  color: #ffffff !important;
+  background-color: rgb(252, 158, 34) !important;
+}
