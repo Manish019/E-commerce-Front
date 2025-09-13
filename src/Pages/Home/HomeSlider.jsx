@@ -4,8 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 
 const HomeSlider = () => {
@@ -19,8 +20,12 @@ const HomeSlider = () => {
         loop: true,
         type: 'progressbar',
         }}
+         autoplay={{
+        delay: 3000, // 2 sec delay
+        disableOnInteraction: false,
+      }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>

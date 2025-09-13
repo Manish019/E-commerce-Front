@@ -15,6 +15,18 @@ body{
   overflow-x: hidden;
 }
 
+::webkit-scrollbar {
+  width: 8px; /* Scrollbar ki width */
+}
+
+::webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar ka color */
+  border-radius: 10px; /* Scrollbar ko gol karne ke liye */
+}
+
+::webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Hover par scrollbar ka color */
+}
 
 .container {
   @apply mx-auto;
@@ -66,8 +78,26 @@ body{
 
 /* Active bullet style */
 .catgory-swiper .swiper-pagination-bullet-active {
-  background-color: #2563eb; /* Tailwind blue-600 */
+  background-color: #eb6e25; /* Tailwind blue-600 */
 }
 
 
+/* product css */
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root{
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  color: #504e4e !important;
+}
 
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color: #eb6e25 !important;
+  font-weight: 300 !important;
+}
+
+
+.css-1qltlow-MuiTabs-indicator{
+  background-color: #eb6e25 !important;
+  height: 2px !important;
+  border-radius: 10px !important;
+}
