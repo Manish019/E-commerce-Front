@@ -4,6 +4,9 @@ import CategorySlider from './CategorySlider'
 import { FaShippingFast } from "react-icons/fa";
 import AddBannerSlider from '../../components/AddBannerSlider/AddBannerSlider';
 import ProductList from '../../components/Product-page/ProductList';
+import FeatureProduct from '../../components/Product-page/FeatureProduct';
+import BlogPages from '../Blogs/BlogPages';
+import Footer from '../../components/Footer/Footer';
 
 
 const Home = () => {
@@ -16,6 +19,7 @@ const Home = () => {
 
       <section className='product-main-section bg-[#ffffff] py-10 pb-10'>
        <ProductList />
+       
       </section>
 
 
@@ -48,6 +52,26 @@ const Home = () => {
       {/* AddBanner-slider */}
 
         <AddBannerSlider items={4} />
+
+         <section className='product-main-section bg-[#ffffff] py-10 pb-10'>
+       <FeatureProduct />
+       <AddBannerSlider items={6} />
+
+        <BlogPages />
+
+
+      </section>
+
+        <section className='product-main-section bg-[#f3ffefe3] py-10 pb-3'>
+         
+         <Footer />
+
+      </section>
+     
+
+   
+
+
 
       </>
     );

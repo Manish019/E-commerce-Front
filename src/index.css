@@ -101,3 +101,9 @@ body{
   height: 2px !important;
   border-radius: 10px !important;
 }
+
+.MuiFormControlLabel-label{
+  font-size: 12px !important;
+  color: #504e4e !important;
+}
+

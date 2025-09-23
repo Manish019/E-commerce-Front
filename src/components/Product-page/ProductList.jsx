@@ -25,16 +25,7 @@ const ProductList = () => {
           <div className="product-slider-box">
             <ProductSlider productItems={5} />
           </div>
-
-      
-
-           
-
-
-
-
-
-
+  
           </div>
         </div>
       </div>

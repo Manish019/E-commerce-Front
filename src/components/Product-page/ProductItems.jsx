@@ -42,7 +42,7 @@ const ProductItems = () => {
             >
               <IoMdHeartEmpty />
             </Button>
-</Tooltip>
+           </Tooltip>
             <Tooltip title="View"  placement="left-start">
             <Button
               className="
