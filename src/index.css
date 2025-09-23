@@ -11,7 +11,7 @@
 body{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  background-color: #f5f0f0;
+  /* background-color: #f5f0f0; */
   overflow-x: hidden;
 }
 
@@ -82,6 +82,8 @@ body{
 }
 
 
+
+
 /* product css */
 .css-1usuzwp-MuiButtonBase-root-MuiTab-root{
   text-transform: capitalize !important;
@@ -105,5 +107,11 @@ body{
 .MuiFormControlLabel-label{
   font-size: 12px !important;
   color: #504e4e !important;
+}
+
+
+/* Banner Slider second */
+.homesliderAdd .swiper-pagination-bullet{
+  background-color: #eb6e25; /* Tailwind blue-600 */
 }
 

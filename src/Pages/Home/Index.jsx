@@ -7,12 +7,15 @@ import ProductList from '../../components/Product-page/ProductList';
 import FeatureProduct from '../../components/Product-page/FeatureProduct';
 import BlogPages from '../Blogs/BlogPages';
 import Footer from '../../components/Footer/Footer';
+import HomeAddSlider from './HomeAddSlider';
 
 
 const Home = () => {
   return (
     <>
-      <HomeSlider />
+      {/* <HomeSlider /> */}
+      <HomeAddSlider />
+
       <CategorySlider />
 
       {/* Product section */}
