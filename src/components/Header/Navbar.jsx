@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="container flex items-center justify-end gap-4">
 
           <div className="col-itme-left w-[25%] px-10">
-            <Button className='!text-black text-2xl gap-2 w-full' onClick={openCategoryPanel}><HiOutlineMenuAlt1 className='text-[20px]' /> Shop By Categories <FaAngleDown className='text-[15px] font-mono ml-auto' />
+            <Button className='!text-black text-2xl gap-2 w-full' onClick={openCategoryPanel}><HiOutlineMenuAlt1 className='text-[18px]' /> Shop By Categories <FaAngleDown className='text-[15px] font-mono ml-auto' />
             </Button>
           </div>
           <div className="col-itme-right w-[60%]">
