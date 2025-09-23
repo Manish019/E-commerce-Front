@@ -13,14 +13,13 @@ import HomeAddSlider from './HomeAddSlider';
 const Home = () => {
   return (
     <>
-      {/* <HomeSlider /> */}
-      <HomeAddSlider />
+      <HomeSlider />
 
       <CategorySlider />
 
       {/* Product section */}
 
-      <section className='product-main-section bg-[#ffffff] py-10 pb-10'>
+      <section className='product-main-section bg-[#ffffff] py-10 pb-2'>
        <ProductList />
        
       </section>
@@ -28,7 +27,7 @@ const Home = () => {
 
         {/* free-shiping section */}
 
-        <section className="freeshiping bg-white py-10 pb-10">
+        <section className="freeshiping bg-white py-10 pb-5">
           <div className="container">
             <div className="max-w-6xl mx-auto free-add w-full bg-[#fffbfb] rounded-lg border-1 p-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Left Column */}
@@ -53,10 +52,12 @@ const Home = () => {
         </section>
 
       {/* AddBanner-slider */}
+            <HomeAddSlider />
+
 
         <AddBannerSlider items={4} />
 
-         <section className='product-main-section bg-[#ffffff] py-10 pb-10'>
+         <section className='product-main-section bg-[#ffffff] py-10 pb-5'>
        <FeatureProduct />
        <AddBannerSlider items={6} />
 
@@ -65,7 +66,7 @@ const Home = () => {
 
       </section>
 
-        <section className='product-main-section bg-[#f3ffefe3] py-10 pb-3'>
+        <section className='product-main-section bg-[#f3ffefe3] py-10 pb-2'>
          
          <Footer />
 

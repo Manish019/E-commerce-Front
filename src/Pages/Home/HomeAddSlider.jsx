@@ -59,20 +59,29 @@ const HomeAddSlider = () => {
       </Swiper>
   </div>
 
-  <div class="p-4 rounded-lg shadow">
-    <div className="slider-img bg-[#b4ffe7a6] w-full rounded-lg relative overflow-hidden py-6">
-          <img src="../../phone.webp" className='w-[33%] h-auto px-2'  />
+  <div class="p-4 rounded-lg shadow ">
+    <div className="slider-img bg-[#f4f7e5] w-full rounded-lg relative overflow-hidden py-12 mb-5">
+          <img src="../add-product-img/phone.webp" className='w-[33%] h-auto px-2'  />
           <div className="inner-info absolute top-0 h-full right-0 text-black z-50 p-2 w-[60%] space-y-3 bg-opacity-70 rounded-l-lg justify-center flex flex-col items-left">
-            <p className='text-[16px] text-black'>Buy Men's Footwear with low price</p>
-            <h3 className='text-[23px] text-[#ff5252]'>₹3550</h3>
+            <p className='text-[20px] text-black'>Buy Men's Footwear with low price</p>
+            <h3 className='text-[20px] text-[#ff5252]'>₹3550</h3>
             <div className="button mt-1">
-<Link to='/' className='text-black py-2'>Shop Now</Link>
+<Link to='/' className='text-black py-2 hover:text-[#ff5252]'>Shop Now</Link>
+            </div>
+          </div>  
+          </div> 
+           <div className="slider-img bg-[#f4f7e5] w-full rounded-lg relative overflow-hidden py-12">
+          <img src="../add-product-img/fashion.webp" className='w-[33%] h-auto px-2'  />
+          <div className="inner-info absolute top-0 h-full right-0 text-black z-50 p-2 w-[60%] space-y-3 bg-opacity-70 rounded-l-lg justify-center flex flex-col items-left">
+            <p className='text-[20px] text-black'>Buy Men's Footwear with low price</p>
+            <h3 className='text-[20px] text-[#ff5252]'>₹3550</h3>
+            <div className="button mt-1">
+<Link to='/' className='text-black py-2 hover:text-[#ff5252]'>Shop Now</Link>
             </div>
           </div>
           </div>
-  </div>
-</div>
-
+          </div>
+      </div>
       </div>
     </section>
     
